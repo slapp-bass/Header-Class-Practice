@@ -13,7 +13,7 @@
             "-g",
             "${workspaceFolder}/*.cpp",
             "${workspaceFolder}/src/*.cpp",
-            "-I", "${workspaceFolder}/include",
+            "-I${workspaceFolder}/include",
             "-o", "${fileDirname}/${fileBasenameNoExtension}"
             ],  
             "options": {
